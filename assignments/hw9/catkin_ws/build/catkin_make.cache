@@ -1,0 +1,2 @@
+mbot_description:mbot_gazebo:mbot_navigation:mbot_teleop
+-DCATKIN_DEVEL_PREFIX=/home/pengbo/Desktop/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/pengbo/Desktop/catkin_ws/install -G Unix Makefiles

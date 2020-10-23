@@ -1,0 +1,8 @@
+prefix=/home/pengbo/ROS/assignments/hw2/catkin_ws/install
+
+Name: test2
+Description: Description of test2
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

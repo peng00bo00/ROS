@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/pengbo/ROS/assignments/hw3/catkin_ws/devel/setup.sh

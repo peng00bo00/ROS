@@ -1,0 +1,7 @@
+string name
+float64  v
+float64  omega
+bool   move
+
+---
+string result

@@ -1,0 +1,2 @@
+mbot_description:mbot_gazebo:robot_voice
+-DCATKIN_DEVEL_PREFIX=/home/pengbo/ROS/assignments/hw7/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/pengbo/ROS/assignments/hw7/catkin_ws/install -G Unix Makefiles

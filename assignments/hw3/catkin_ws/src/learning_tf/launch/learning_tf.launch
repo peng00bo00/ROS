@@ -1,0 +1,9 @@
+<launch>
+    <arg name="x" default="0.3" />
+    <arg name="y" default="0.0" />
+    <arg name="z" default="0.0" />
+
+    <node pkg="learning_tf" type="tf_broadcaster" name="tf_broadcaster_node"/>
+    <node pkg="learning_tf" type="tf_listener" name="tf_listener_node" args="$(arg x) $(arg y) $(arg z)" output="screen"/>
+
+</launch>

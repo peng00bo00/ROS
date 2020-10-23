@@ -1,0 +1,13 @@
+<launch>
+    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node" />
+
+    <arg name="turtle_name" default="turtle2" />
+    <arg name="cmd" default="move" />
+    <arg name="v" default="1.0" />
+    <arg name="omega" default="1.0" />
+
+    <node pkg="test3" type="turtle_spawn" name="turtle_spawn" args="$(arg turtle_name)"/>
+    <node pkg="test3" type="turtle_control_server" name="turtle_control_server" />
+    <node pkg="test3" type="turtle_control_client" name="turtle_client_server" args="$(arg turtle_name) $(arg cmd) $(arg v) $(arg omega)" />
+
+</launch>
